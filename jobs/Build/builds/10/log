@@ -1,0 +1,23 @@
+Started by user [8mha:////4Jol+E2FHsPcfkFJjMA0Cmvo+12ibzRodogDbGcH7NxTAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CL94qLU1OzEvJIMAEb70Z3EAAAA[0msreekanth
+Running as SYSTEM
+Building remotely on [8mha:////4D1KwD4URMG0vEXMSeNZ1XhOph5vAXhef9ZAOFWsN6kJAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 in workspace /home/jenkins-slave-01/workspace/Test
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/srikivn/test.git # timeout=10
+Fetching upstream changes from https://github.com/srikivn/test.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/srikivn/test.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 61d6ebbfd43f5a6e4144f61c0a70480503cda636 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 61d6ebbfd43f5a6e4144f61c0a70480503cda636
+Commit message: "Update big3.c"
+ > git rev-list --no-walk 61d6ebbfd43f5a6e4144f61c0a70480503cda636 # timeout=10
+[Test] $ /bin/sh -xe /tmp/jenkins278003204465147018.sh
++ make acc.exe
+make: *** No rule to make target 'acc.exe'.  Stop.
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: srikivn@gmail.com
+Finished: FAILURE

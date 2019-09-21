@@ -1,0 +1,10 @@
+Started on Sep 21, 2019 7:25:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 61d6ebbfd43f5a6e4144f61c0a70480503cda636 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/srikivn/test.git # timeout=10
+Found 1 remote heads on https://github.com/srikivn/test.git
+[poll] Latest remote head revision on refs/heads/master is: 61d6ebbfd43f5a6e4144f61c0a70480503cda636 - already built by 10
+Done. Took 0.16 sec
+No changes

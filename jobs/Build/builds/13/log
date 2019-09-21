@@ -1,0 +1,25 @@
+Started by GitHub push by srikivn
+Running as SYSTEM
+Building remotely on [8mha:////4D1KwD4URMG0vEXMSeNZ1XhOph5vAXhef9ZAOFWsN6kJAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 in workspace /home/jenkins-slave-01/workspace/Build
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/srikivn/test.git # timeout=10
+Fetching upstream changes from https://github.com/srikivn/test.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/srikivn/test.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 89f77ea6a2a835f0ae673c006e697882e7603a8e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 89f77ea6a2a835f0ae673c006e697882e7603a8e
+Commit message: "Update rev.c"
+ > git rev-list --no-walk bf5159d53163b41982e624df7f89a132da38c7d4 # timeout=10
+[Build] $ /bin/sh -xe /tmp/jenkins3664731351919156359.sh
++ make
+gcc -c rev.c
+gcc -o Test.exe main.o big3.o rev.o fact.o
++ sudo cp Test.exe /home/ec2-user/
+No mail will be sent out, as 'Build #13' does not have a result yet. Please make sure you set a proper result in case of pipeline/build scripts.
+Triggering a new build of [8mha:////4OULKwaf3hGPehHDnaIZifR/0/2wXjQHxwZluKYoVKy5AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JH2X1IKc/Ep9ANFMbsTBAAAA[0mDeploy
+Finished: SUCCESS

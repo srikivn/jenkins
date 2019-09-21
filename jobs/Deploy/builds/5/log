@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4J4mSg+fhj3kIqKHlVXlqxCw3+W+WUpjVKX18KkRNHivAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4N3Kr4+g8phIMvBB7bgScV/bW1dR3eswHuWJeKcBrDVyAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZe/az8JH2n0sycFH1DMwBlHLbswgAAAA==[0m16
+originally caused by:
+ Started by GitHub push by srikivn
+Running as SYSTEM
+Building remotely on [8mha:////4D1KwD4URMG0vEXMSeNZ1XhOph5vAXhef9ZAOFWsN6kJAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 in workspace /home/jenkins-slave-01/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/jenkins2420340644086808156.sh
++ mv /home/jenkins-slave-01/workspace/Test/Test.exe /home/jenkins-slave-01/workspace/Deploy/
+Sending e-mails to: srikivn@gmail.com
+Triggering a new build of [8mha:////4Nr0Ih86ijtCFCxrpr7K6qjh8njPDSZgeD/35efXZ8JeAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/az8JP2Q1OISfQCjfsn8vwAAAA==[0mTest
+Finished: SUCCESS

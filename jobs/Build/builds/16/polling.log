@@ -1,0 +1,11 @@
+Started on Sep 21, 2019 8:10:23 AM
+Started by event from 140.82.115.250 ⇒ http://18.219.72.174:8081/github-webhook/ on Sat Sep 21 08:10:23 UTC 2019
+Using strategy: Default
+[poll] Last Built Revision: Revision b2a01106689ebb946cff6fe941b3f72794ad556f (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/srikivn/test.git # timeout=10
+Found 1 remote heads on https://github.com/srikivn/test.git
+[poll] Latest remote head revision on refs/heads/master is: a0904c4b4a621852c1c117342663a79e154bd01c
+Done. Took 0.15 sec
+Changes found

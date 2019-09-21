@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: rpetti
+Build-Jdk: 1.8.0_91
+Extension-Name: display-upstream-changes
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: display-upstream-changes
+Implementation-Version: 0.3.2
+Plugin-Class: jenkins.plugins.displayupstreamchanges.DisplayUpstreamCh
+ angesPlugin
+Group-Id: org.jvnet.hudson.plugins
+Short-Name: display-upstream-changes
+Long-Name: Display Upstream Changes
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Display+Upstream+Chang
+ es+Plugin
+Plugin-Version: 0.3.2
+Hudson-Version: 1.565
+Jenkins-Version: 1.565
+Plugin-Developers: Rob Petti:rpetti:
+

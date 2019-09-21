@@ -1,0 +1,30 @@
+Started by user [8mha:////4Jol+E2FHsPcfkFJjMA0Cmvo+12ibzRodogDbGcH7NxTAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CL94qLU1OzEvJIMAEb70Z3EAAAA[0msreekanth
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Test
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/srikivn/test.git
+ > git init /var/lib/jenkins/workspace/Test # timeout=10
+Fetching upstream changes from https://github.com/srikivn/test.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/srikivn/test.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/srikivn/test.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/srikivn/test.git # timeout=10
+Fetching upstream changes from https://github.com/srikivn/test.git
+ > git fetch --tags --progress -- https://github.com/srikivn/test.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6ee5c29c66a895428297caea3df664a1c8572f4f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6ee5c29c66a895428297caea3df664a1c8572f4f
+Commit message: "Update makefile"
+First time build. Skipping changelog.
+[Test] $ /bin/sh -xe /tmp/jenkins8645603043295718485.sh
++ make
+gcc -c main.c
+gcc -c big3.c
+gcc -c rev.c
+gcc -c fact.c
+gcc -o Test.exe main.o big3.o rev.o fact.o
+Finished: SUCCESS

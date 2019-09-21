@@ -1,0 +1,22 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Test
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/srikivn/test.git # timeout=10
+Fetching upstream changes from https://github.com/srikivn/test.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/srikivn/test.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6ee5c29c66a895428297caea3df664a1c8572f4f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6ee5c29c66a895428297caea3df664a1c8572f4f
+Commit message: "Update makefile"
+ > git rev-list --no-walk 6ee5c29c66a895428297caea3df664a1c8572f4f # timeout=10
+[Test] $ /bin/sh -xe /tmp/jenkins5821897581308435942.sh
++ make
+make: 'Test.exe' is up to date.
++ sudo cp Test.exe /home/ubuntu/
+Finished: SUCCESS

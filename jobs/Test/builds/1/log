@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4OULKwaf3hGPehHDnaIZifR/0/2wXjQHxwZluKYoVKy5AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JH2X1IKc/Ep9ANFMbsTBAAAA[0mDeploy" build number [8mha:////4B9EHj14A3CMJ8WE/BfbWrkz+8NBZguwWXL4VBZEYAJ1AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwkfZfUgpz8Sn1TAJ06PMjCAAAA[0m5
+originally caused by:
+ Started by upstream project "[8mha:////4J4mSg+fhj3kIqKHlVXlqxCw3+W+WUpjVKX18KkRNHivAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4N3Kr4+g8phIMvBB7bgScV/bW1dR3eswHuWJeKcBrDVyAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZe/az8JH2n0sycFH1DMwBlHLbswgAAAA==[0m16
+ originally caused by:
+  Started by GitHub push by srikivn
+Running as SYSTEM
+Building remotely on [8mha:////4D1KwD4URMG0vEXMSeNZ1XhOph5vAXhef9ZAOFWsN6kJAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 in workspace /home/jenkins-slave-01/workspace/Test
+[Test] $ /bin/sh -xe /tmp/jenkins7861408599978840729.sh
++ echo 'Test is success'
+No mail will be sent out, as 'Test #1' does not have a result yet. Please make sure you set a proper result in case of pipeline/build scripts.
+Finished: SUCCESS

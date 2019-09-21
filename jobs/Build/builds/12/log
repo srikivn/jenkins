@@ -1,0 +1,33 @@
+Started by GitHub push by srikivn
+Running as SYSTEM
+Building remotely on [8mha:////4D1KwD4URMG0vEXMSeNZ1XhOph5vAXhef9ZAOFWsN6kJAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 in workspace /home/jenkins-slave-01/workspace/Build
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/srikivn/test.git
+ > git init /home/jenkins-slave-01/workspace/Build # timeout=10
+Fetching upstream changes from https://github.com/srikivn/test.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/srikivn/test.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/srikivn/test.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/srikivn/test.git # timeout=10
+Fetching upstream changes from https://github.com/srikivn/test.git
+ > git fetch --tags --progress -- https://github.com/srikivn/test.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision bf5159d53163b41982e624df7f89a132da38c7d4 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bf5159d53163b41982e624df7f89a132da38c7d4
+Commit message: "Update fact.c"
+ > git rev-list --no-walk 245e174eb4c833881e2f7d824bcf8d04ff6e7023 # timeout=10
+[Build] $ /bin/sh -xe /tmp/jenkins3997224092211724523.sh
++ make
+gcc -c main.c
+gcc -c big3.c
+gcc -c rev.c
+gcc -c fact.c
+gcc -o Test.exe main.o big3.o rev.o fact.o
++ sudo cp Test.exe /home/ec2-user/
+Sending e-mails to: srikivn@gmail.com
+Triggering a new build of [8mha:////4OULKwaf3hGPehHDnaIZifR/0/2wXjQHxwZluKYoVKy5AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JH2X1IKc/Ep9ANFMbsTBAAAA[0mDeploy
+Finished: SUCCESS

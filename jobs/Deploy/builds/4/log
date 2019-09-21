@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4J4mSg+fhj3kIqKHlVXlqxCw3+W+WUpjVKX18KkRNHivAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4Jk79N0RIBdZPlLj6+XPfpVnR9akIrcuoflDAVdbfGi7AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZe/az8JH2n0sycFH1DUwDfTb91wgAAAA==[0m15
+originally caused by:
+ Started by GitHub push by srikivn
+Running as SYSTEM
+Building remotely on [8mha:////4D1KwD4URMG0vEXMSeNZ1XhOph5vAXhef9ZAOFWsN6kJAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 in workspace /home/jenkins-slave-01/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/jenkins333858484597356433.sh
++ mv /home/jenkins-slave-01/workspace/Test/Test.exe /home/jenkins-slave-01/worksapce/Deploy/
+mv: cannot move '/home/jenkins-slave-01/workspace/Test/Test.exe' to '/home/jenkins-slave-01/worksapce/Deploy/': No such file or directory
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: srikivn@gmail.com
+Finished: FAILURE
